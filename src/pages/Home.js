@@ -9,7 +9,7 @@ import { getMarkdown } from '../App.js'
 
 const Home = () => {
 
-    const [markdown, setMarkdown] = useState('# Fetching')
+    const [markdown, setMarkdown] = useState('')
     useEffect(() => {
 
         getMarkdown(HomeContent, setMarkdown)

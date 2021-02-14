@@ -8,7 +8,7 @@ import { getMarkdown } from '../App.js'
 import '../styles/Content.css'
 
 const CV = () => {
-    const [markdown, setMarkdown] = useState('# Fetching')
+    const [markdown, setMarkdown] = useState('')
     useEffect(() => {
         getMarkdown(CVContent, setMarkdown)
     }, [])

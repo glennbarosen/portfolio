@@ -8,7 +8,7 @@ import '../styles/Content.css'
 
 
 const Projects = () => {
-    const [markdown, setMarkdown] = useState('# Fetching')
+    const [markdown, setMarkdown] = useState('')
     useEffect(() => {
         getMarkdown(ProjectsContent, setMarkdown)
     }, [])
