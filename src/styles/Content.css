@@ -1,0 +1,86 @@
+
+.container {
+    display: grid;
+    place-items: center;
+    min-height: 80vh;
+    max-width: 1440px; 
+    margin: 0 auto !important; 
+      
+}
+
+ul {
+    align-self: center;
+    justify-self: center;
+}
+
+.project {
+    font-size: 1.8rem;
+    font-family: 'Ubuntu Mono', monospace;
+    letter-spacing: 0.1rem;
+    text-align: right;
+    margin: 1.1rem
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.disabled-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.4);
+
+}
+
+.content {
+    display: grid;
+    place-items: center;
+    height: 40%;
+}
+
+.content p {
+    margin: 1rem;
+}
+
+.content p, a, em {
+    font-family: 'Ubuntu Mono', monospace;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+em {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.svg-container {
+    display: grid;
+    place-items: center;
+    height: max(25%, 300px);
+    
+    
+}
+
+.cv-content {
+    
+    max-width: 70vw;
+    line-height: 2rem;
+}
+.cv-content hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cv-content ul {
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.cv-content li {
+    list-style:inside
+}
+
+
+
