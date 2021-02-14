@@ -1,7 +1,7 @@
 .nav-container {
     max-width: 1440px; 
 	margin: 0 auto !important; 
-	float: none !important; 
+	float: none !important;
 }
 .nav-links {
     height: 6rem;
@@ -17,7 +17,9 @@
 .nav-links :hover {
     cursor: pointer;
 }
-
+li.line {
+    font-family: 'Ubuntu', sans-serif;
+}
  li{
      list-style: none;
  }

@@ -17,7 +17,9 @@ const Home = () => {
 
     return (
         <div className='container'>
-            <Logo />
+            <div className='svg-container'>
+                <Logo className='svg' />
+            </div>
             <div className='content'>
                 <ReactMarkdown source={markdown} linkTarget={'_blank'} />
             </div>
