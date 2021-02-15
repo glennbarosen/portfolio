@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import ReactMarkdown from 'react-markdown'
-import { ReactComponent as Logo } from '../assets/gab-hero.svg'
 import CVContent from '../content/CV.md'
 import noCV from '../assets/cv-gab-no.pdf'
 import enCV from '../assets/cv-gab-en.pdf'
 import { getMarkdown } from '../App.js'
-import '../styles/Content.css'
+import { container, contentCV, cvLinks } from '../styles/styles'
+/** @jsxRuntime classic */
+/** @jsx jsx */
+import { jsx } from '@emotion/react'
 
 const CV = () => {
     const [markdown, setMarkdown] = useState('')
@@ -14,11 +16,8 @@ const CV = () => {
     }, [])
 
     return (
-        <div className='container'>
-            <div className='svg-container'>
-                <Logo className='svg' />
-            </div>
-            <p className='cv-dl'>
+        <div css={container}>
+            <p css={cvLinks}>
                 pdf version - <a
                     className='cv-link'
                     href={noCV}
@@ -29,11 +28,9 @@ const CV = () => {
                         rel="noopener noreferrer"
                         target="_blank">english</a>
             </p>
-            <ReactMarkdown className='cv-content'
+            <ReactMarkdown css={contentCV}
                 children={markdown}
                 linkTarget={'_blank'} />
-
-
         </div>
     )
 }

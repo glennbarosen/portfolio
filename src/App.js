@@ -1,9 +1,15 @@
 import React from 'react'
+import Navbar from './components/Navbar.js'
 import Home from './pages/Home.js'
 import Projects from './pages/Projects.js'
 import CV from './pages/CV.js'
-import Navbar from './components/Navbar.js'
+import { ReactComponent as Logo } from './assets/gab-hero.svg'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { container, logo } from './styles/styles.js'
+/** @jsxRuntime classic */
+/** @jsx jsx */
+import { jsx } from '@emotion/react'
+
 
 export const getMarkdown = async (path, setState) => {
   const response = await fetch(path)
@@ -14,19 +20,24 @@ export const getMarkdown = async (path, setState) => {
 const App = () => {
   return (
     <Router>
-      <Navbar />
-      <Switch>
-        <Route exact path='/'>
-          <Home />
-        </Route>
-        <Route path='/projects'>
-          <Projects />
-        </Route>
-        <Route path='/cv'>
-          <CV />
-        </Route>
-      </Switch >
+      <div css={container}>
+        <Navbar />
+        <Logo css={logo} />
+
+        <Switch>
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route path='/projects'>
+            <Projects />
+          </Route>
+          <Route path='/cv'>
+            <CV />
+          </Route>
+        </Switch >
+      </div>
     </Router >
+
   )
 }
 
