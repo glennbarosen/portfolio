@@ -50,7 +50,7 @@ export const content = css`
     display: grid;
     place-items: center;
     grid-gap: 1.5rem;
-
+    margin-top: 6rem;
     a, p {
         font-family: 'Ubuntu Mono', monospace;
         font-size: 1.3rem;
@@ -122,6 +122,7 @@ export const contentCV = css`
 `
 
 export const cvLinks = css`
+    margin-top: 6rem;
     margin-bottom: 2rem;
     font-family: 'Ubuntu Mono', monospace;
     a {
