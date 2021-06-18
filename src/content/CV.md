@@ -10,7 +10,8 @@ Not looking for work currently.
 ***
 ## Experience
 - IT Consultant | Wide Assessment AS (Apr 2021 - now)
-`--------------`
+`--------------`  
+
  ##### Working as a frontend developer in a React/TypeScript application.  
  `--------------` 
 
