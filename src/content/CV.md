@@ -1,5 +1,5 @@
 ## Summary
-Looking for my first job as a developer after graduating with a bachelors degree in IT. I really enjoy React and also like exploring new technologies. I´m mainly looking for a frontend / fullstack position, but I'm open for any challenge.  
+Not looking for work currently. 
 ***
 ## Skills
 - JavaScript
@@ -9,17 +9,23 @@ Looking for my first job as a developer after graduating with a bachelors degree
 - Postgresql
 ***
 ## Experience
-- Bachelor thesis | Wide Assessment (Jan 2021 - now)  
-`--------------`  
-
- ##### Creating a dashboard to handle and automate certain tasks regarding the company's IT security. Built using React with TypeScript on the frontend and a Node.js backend.  
+- IT Consultant | Wide Assessment AS (Apr 2021 - now)
+`--------------`
+ ##### Working as a frontend developer in a React/TypeScript application.  
  `--------------` 
 
-* Intern | Wide Assessment (Aug 2020 - Nov 2020)  
+
+- Bachelor thesis | Wide Assessment AS (Jan 2021 - Jun 2021)  
+`--------------`  
+
+ ##### Created a monitorization dashboard to get an overview of the company's security routines. Features an advanced todo list for tasks that need to be done in intervals as well as an overview of the company's repositories and who has access to these. Built using React with TypeScript on the frontend and a Node.js backend.  
+ `--------------` 
+
+* Intern | Wide Assessment AS (Aug 2020 - Nov 2020)  
 `--------------`  
 ##### Made a KPI dashboard which displays statistics about the the company's recruitment platform WA.works. Built using React with TypeScript and Redux for state management.
 `--------------`
-- Store employee | Coop (Aug 2012 - now)  
+- Store employee | Coop (Aug 2012 - Apr 2021)  
 ***
 ## Education
 - Information Technology | Western Norway University of Applied Sciences (2018 - now)  
