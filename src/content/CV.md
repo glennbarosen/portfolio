@@ -29,10 +29,10 @@ Not looking for work currently.
 - Store employee | Coop (Aug 2012 - Apr 2021)  
 ***
 ## Education
-- Information Technology | Western Norway University of Applied Sciences (2018 - now)  
+- Information Technology | Western Norway University of Applied Sciences (Aug 2018 -  Jun 2021)  
 ##### Learned many great programming principles and relevant technologies during my internship and bachelor thesis.  
 `--------------` 
-* Business Administation | BI Norwegian Business School (2015 -2019)  
+* Business Administation | BI Norwegian Business School (Aug 2015 - Jun 2019)  
 ##### Specialized in project management and also learned alot about marketing and business strategy.
 ***
 ## Contact
