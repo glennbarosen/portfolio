@@ -65,6 +65,8 @@ export const content = css`
     }
     em {
         color: rgba(0, 0, 0, 0.4);
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 1.3rem;
         font-style: normal;
         :hover {
             cursor: not-allowed;
