@@ -17,11 +17,11 @@ const CV = () => {
     return (
         <div css={container}>
             <p css={cvLinks}>
-                pdf version - <a
+                <a
                     className='cv-link'
                     href={noCV}
                     rel="noopener noreferrer"
-                    target="_blank">norwegian</a>
+                    target="_blank">pdf version - norwegian</a>
             </p>
             <ReactMarkdown css={contentCV}
                 children={markdown}
