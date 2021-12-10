@@ -1,18 +1,27 @@
 ## Summary
-Not looking for work currently. 
+I enjoy frontend development and wanting to go fullstack at some point. I work with React and like it alot. I get excited about new technologies and right now I think [Svelte](https://svelte.dev) looks very cool!
 ***
 ## Skills
-- JavaScript
 - React
+- TypeScript/JavaScript
+- Firebase
+- Netlify
+- Storybook
+- CI/CD
 - Redux
-- TypeScript
 - Postgresql
 ***
 ## Experience
-- IT Consultant | Wide Assessment AS (Apr 2021 - now)
+- Web developer | NAeva AS (Des 2021 - now)
 `--------------`  
 
- ##### Working as a frontend developer in a React/TypeScript application.  
+ ##### Working on the our web application. Reworked entire sign in/sign up process, migrated libraries such as MUI and Firebase to newer version. Been a part of splitting a old monolith app into several smaller apps hosted on different sobdomains. Setup CI/CD for our Component library package.
+ `--------------`
+
+- IT Consultant | Wide Assessment AS (Apr 2021 - Des 2021)
+`--------------`  
+
+ ##### Consultant at Naeva AS.  
  `--------------` 
 
 
