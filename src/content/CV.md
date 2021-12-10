@@ -1,5 +1,5 @@
 ## Summary
-I enjoy frontend development and wanting to go fullstack at some point. I work with React and like it alot. I get excited about new technologies and right now I think [Svelte](https://svelte.dev) looks very cool!
+I enjoy frontend development and wanting to go fullstack at some point. I work with React and like it alot. I get excited about new technologies and right now I think Svelte looks very promising!
 ***
 ## Skills
 - React
@@ -12,10 +12,10 @@ I enjoy frontend development and wanting to go fullstack at some point. I work w
 - Postgresql
 ***
 ## Experience
-- Web developer | NAeva AS (Des 2021 - now)
+- Web developer | Naeva AS (Des 2021 - now)
 `--------------`  
 
- ##### Working on the our web application. Reworked entire sign in/sign up process, migrated libraries such as MUI and Firebase to newer version. Been a part of splitting a old monolith app into several smaller apps hosted on different sobdomains. Setup CI/CD for our Component library package.
+ ##### Working on the our web application. Reworked entire sign in/sign up process, migrated libraries such as MUI and Firebase to newer version. Been a part of splitting a old monolith app into several smaller apps hosted on different subdomains. Setup CI/CD for our Component library package.
  `--------------`
 
 - IT Consultant | Wide Assessment AS (Apr 2021 - Des 2021)
